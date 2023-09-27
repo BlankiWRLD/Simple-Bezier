@@ -15,5 +15,8 @@
 
 @property NSUInteger curveResolution;
 @property NSUInteger closestIndex;
+@property (nonatomic, strong) NSMutableIndexSet *selectedIndices;
+@property (nonatomic, strong) NSMutableIndexSet *draggableIndices;
+
 @end
 
